@@ -1,5 +1,6 @@
 import 'package:example1/example1.dart';
 import 'package:example1/example_2.dart';
+import 'package:example1/example_3.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -26,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       ).copyWith(primaryColor: Colors.blue),
       themeMode: ThemeMode.dark,
 
-      home: Example2(),
+      home: WeatherExample(),
     );
   }
 }
